@@ -2,7 +2,7 @@
 
 Based on Tomohiro Okazaki's "STUDY" video work with matches, this model is intended to enable instance detection of matches.
 
-![image](https://github.com/mahoutsukai/MatchesPond/assets/1216152/970521d5-1e05-4121-84f4-b944131275f1)
+![image](https://github.com/mahoutsukai/detect-match/assets/1216152/cc4dd9cc-7552-4da2-b54e-c2c0fda99e30)
 
 ---
 
