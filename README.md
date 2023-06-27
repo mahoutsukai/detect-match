@@ -6,6 +6,12 @@ Based on Tomohiro Okazaki's "STUDY" video work with matches, this model is inten
 
 ---
 
+## Model 
+detect-match-model
+https://www.dropbox.com/sh/8uhz7hv9nu1a39k/AAAc165m3FT2RhQdKaD-Hok4a?dl=0
+
+---
+
 ## Prediction Match
 ```zsh
 python prediction_match.py --grandchild_directory_name 'name_of_grandchild_directory' --directory_path "/path/to/parent/images/directory/"
