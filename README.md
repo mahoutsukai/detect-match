@@ -55,9 +55,9 @@ python train_match.py
 前述のとおり、既存の "match"の検出は不可能ですが、検出結果には "match" であるはずのものに対し、 "toothpick", "chopstick", "pencil" などと認識されクラスが付与されていました。
 それぞれの手、指との関係から近似した状況と判断されたものに対して、それらのクラスが付与されていると考えられます。
 
-人間の目は優秀です。目で見た状況や、ものの輪郭や重なりについて、受動的にフィードバックされることから、 「人間とコンピュータの知覚の不一致」と、「岡崎さんが撮影しているものとは何だろうか?」を感じてもらえたらと考えています。
+人間の目は優秀です。目で見た状況や、ものの輪郭や重なりは意識せずとも認知できるものですが、この「Matches Pond」では受動的にフィードバックされることから、 「人間とコンピュータの知覚の不一致」からの違和感と、「岡崎さんが撮影しているものとは何だろうか?」を感じてもらえたらと考えています。
 
-- 有効な撮影画像データ 38,890点を利用しています。
+- このアプリケーションでは、有効な撮影画像データ 38,890点を利用して作成しています。
 
 
 
@@ -93,9 +93,10 @@ The "rect" that sometimes appears in the video are segment masks (elements) that
 As mentioned above, it is impossible to detect existing "matches," but the detection results showed that the "matches" were recognized as "toothpick," "chopstick," "pencil," etc. and assigned a class to them.
 It is thought that these classes are assigned to objects that are judged to be in a similar situation based on their relationship to the respective hands and fingers.
 
-The human eye is excellent. We hope that the passive feedback of the situation seen by the eyes and the contour and overlap of the objects will make you feel the "discrepancy between human and computer perception" and "what is it that Okazaki-san is photographing?" We hope that visitors will feel the "discrepancy between human and computer perception" and "what is what Okazaki-san is photographing?
+The human eye is excellent. We are able to perceive the situation we see with our eyes and the contours and overlaps of objects without being conscious of it, but the "Matches Pond" provides passive feedback, which we hope will give the viewer a sense of discomfort from the "discrepancy between human and computer perception" and a sense of "what is it that Okazaki-san is shooting? We hope that the user will feel the discomfort from the "discrepancy between human and computer perception" and wonder "what is Okazaki-san shooting?
 
-- The project utilizes 38,890 valid images.
+- This application was created using 38,890 valid images.
+
 
 
 
