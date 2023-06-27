@@ -27,7 +27,8 @@ python train_match.py
 ### このリポジトリについて
 
 
-これは、第25回 亀倉雄策賞 受賞記念「岡崎智弘 個展 STUDY」で展示された「Matches Pond」から派生し生まれた 「マッチ」 を探索することに特化したモデルを作成するプロジェクトです。
+これは、 「マッチ」 を探索することに特化したモデルを作成するプロジェクトです。
+第25回 亀倉雄策賞 受賞記念「岡崎智弘 個展 STUDY」で展示された「Matches Pond」から派生し生まれました。
 
 セマンティックセグメンテーションの分野では、Meta 社が開発し 2022年1月に 論文発表された「Detic」が2万種類の物体がアノーテーションフリーに検出ができることで有名ですが、 既存のクラスに「マッチ (match)」が存在しないため「マッチ」の探索ができませんでした。
 
@@ -64,7 +65,8 @@ python train_match.py
 ## About this repository
 
 
-This is a project to create a model specialized in searching for "matches" derived from the "Matches Pond" exhibited at the 25th Yusaku Kamekura Prize commemorative "Tomohiro Okazaki Individual STUDY".
+This is a project to create a model specialized in searching for "matches.
+It is derived from "Matches Pond," which was exhibited at "Tomohiro Okazaki's STUDY," the 25th Yusaku Kamekura Award Commemorative Exhibition.
 
 In the field of semantic segmentation, "Detic," developed by Meta and published in January 2022, is famous for its ability to detect 20,000 object types without annotation. The model stored in this repository is the Oka model, which is a model of the Oka model.
 
